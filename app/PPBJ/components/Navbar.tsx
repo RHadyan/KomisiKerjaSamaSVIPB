@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { useLanguage } from "../../components/LanguageProvider";
+import { useLanguage } from "../../vcc/components/LanguageProvider";
 
 export default function Navbar() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +18,7 @@ export default function Navbar() {
 				{/* Desktop Navigation */}
 				<div className="hidden md:flex items-center space-x-8">
 					<Link
-						href="/PPBJ/program"
+						href="/PPBJ/"
 						className="text-gray-600 hover:text-blue-500 transition-colors"
 					>
 						Program

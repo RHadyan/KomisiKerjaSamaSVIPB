@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { useLanguage } from "../../components/LanguageProvider";
+import { useLanguage } from "../../vcc/components/LanguageProvider";
 
 export const metadata: Metadata = {
 	title: "Program - PPBJ Aceh",

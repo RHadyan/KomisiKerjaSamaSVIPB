@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useLanguage } from "../../components/LanguageProvider";
+import { useLanguage } from "../../vcc/components/LanguageProvider";
 
 export default function Footer() {
 	const { language, t } = useLanguage();

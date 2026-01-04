@@ -117,6 +117,54 @@ const translations = {
 		testimonial3Text:
 			"Berkat VCC, saya bisa mengikuti program joint degree dan mendapatkan dua gelar. Ini membuka banyak peluang baru.",
 
+		//about
+		aboutTitle: "Tentang Kami",
+		aboutSubtitle:
+			"Komisi Kerja Sama Sekolah Vokasi IPB University mengelola dan mengembangkan kemitraan strategis untuk mendukung pendidikan vokasi yang relevan dan berdaya saing.",
+		aboutImageAlt: "Komisi Kerja Sama Sekolah Vokasi IPB",
+		aboutCardTitle: "Komisi Kerja Sama",
+		aboutCardSubtitle: "Sekolah Vokasi IPB University",
+		aboutRoleTitle: "Peran Komisi Kerja Sama",
+		aboutRoleDesc:
+			"Komisi ini menjadi penghubung antara Sekolah Vokasi IPB University dengan mitra industri, institusi pendidikan, dan lembaga pemerintah—baik nasional maupun internasional.",
+		aboutPoint1: "Mengelola inisiatif kerja sama dan implementasi program.",
+		aboutPoint2:
+			"Mendorong kegiatan magang, pertukaran pelajar, dan penelitian terapan.",
+		aboutPoint3: "Mendukung pengabdian masyarakat serta program internasional.",
+		aboutCommitTitle: "Komitmen Kami",
+		aboutCommitDesc:
+			"Kami berkomitmen membangun kemitraan yang berkelanjutan untuk menciptakan pendidikan vokasi yang unggul, adaptif, dan berdaya saing global.",
+		aboutCtaPrograms: "Lihat Program Kerja Sama",
+		aboutCtaContact: "Hubungi Kami",
+		//programs
+		programsPageTitle: "Program",
+		programsPageSubtitle:
+			"Pilih negara tujuan untuk melihat program kerja sama dan detail kegiatannya.",
+
+		programCountryVietnam: "Vietnam",
+		programDescVietnam:
+			"Program kerja sama pendidikan dan pelatihan vokasi bersama mitra di Vietnam.",
+
+		programCountryThailand: "Thailand",
+		programDescThailand:
+			"Kesempatan pertukaran, pelatihan, dan kolaborasi akademik dengan institusi di Thailand.",
+
+		programCountryNewZealand: "New Zealand",
+		programDescNewZealand:
+			"Program kolaborasi internasional, short course, dan penguatan kompetensi global.",
+
+		programCountryMalaysia: "Malaysia",
+		programDescMalaysia:
+			"Kerja sama regional dalam bidang pendidikan vokasi dan pengembangan SDM.",
+
+		programCountryJapan: "Jepang",
+		programDescJapan:
+			"Program pelatihan bahasa, magang, dan persiapan studi serta karier di Jepang.",
+
+		programCountryChina: "China",
+		programDescChina:
+			"Peluang kerja sama pendidikan, riset terapan, dan pertukaran akademik dengan mitra di China.",
+
 		// CTA Section
 		ctaTitle: "Bergabunglah dengan Komunitas Mahasiswa VCC",
 		ctaSubtitle:
@@ -236,6 +284,52 @@ const translations = {
 		testimonial3Role: "Joint Degree Program Participant",
 		testimonial3Text:
 			"Thanks to VCC, I was able to participate in the joint degree program and earn two degrees. This has opened many new opportunities.",
+		//about
+		aboutTitle: "About Us",
+		aboutSubtitle:
+			"The Cooperation Commission of IPB Vocational School manages and develops strategic partnerships to support relevant and globally competitive vocational education.",
+		aboutImageAlt: "Cooperation Commission - IPB Vocational School",
+		aboutCardTitle: "Cooperation Commission",
+		aboutCardSubtitle: "IPB Vocational School University",
+		aboutRoleTitle: "Our Role",
+		aboutRoleDesc:
+			"We serve as a strategic bridge between IPB Vocational School and partners from industry, educational institutions, and government—both nationally and internationally.",
+		aboutPoint1: "Manage cooperation initiatives and program implementation.",
+		aboutPoint2: "Support internships, student exchange, and applied research.",
+		aboutPoint3: "Support community service and international programs.",
+		aboutCommitTitle: "Our Commitment",
+		aboutCommitDesc:
+			"We are committed to building sustainable partnerships to create excellent, adaptive, and globally competitive vocational education.",
+		aboutCtaPrograms: "Explore Cooperation Programs",
+		aboutCtaContact: "Contact Us",
+		//programs
+		programsPageTitle: "Programs",
+		programsPageSubtitle:
+			"Choose a destination country to explore cooperation programs and details.",
+
+		programCountryVietnam: "Vietnam",
+		programDescVietnam:
+			"Educational cooperation and vocational training programs with partners in Vietnam.",
+
+		programCountryThailand: "Thailand",
+		programDescThailand:
+			"Exchange opportunities, training, and academic collaboration with institutions in Thailand.",
+
+		programCountryNewZealand: "New Zealand",
+		programDescNewZealand:
+			"International collaboration programs, short courses, and global competency development.",
+
+		programCountryMalaysia: "Malaysia",
+		programDescMalaysia:
+			"Regional cooperation in vocational education and human resource development.",
+
+		programCountryJapan: "Japan",
+		programDescJapan:
+			"Language training, internships, and preparation for study and career opportunities in Japan.",
+
+		programCountryChina: "China",
+		programDescChina:
+			"Opportunities for educational cooperation, applied research, and academic exchange with partners in China.",
 
 		// CTA Section
 		ctaTitle: "Join the VCC Student Community",

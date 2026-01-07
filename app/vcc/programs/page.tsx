@@ -4,6 +4,7 @@ import Navbar from "@/app/vcc/components/Navbar";
 import Footer from "@/app/vcc/components/Footer";
 import { useLanguage } from "@/app/vcc/components/LanguageProvider";
 import Image from "next/image";
+import Link from "next/link";
 
 /* =======================
    DATA PROGRAM (NEGARA)
@@ -62,11 +63,13 @@ function ProgramCardItem({
 	description,
 	imageSrc,
 	buttonText,
+	href,
 }: {
 	title: string;
 	description: string;
 	imageSrc: string;
 	buttonText: string;
+	href: string;
 }) {
 	return (
 		<div className="rounded-3xl p-3 shadow-lg bg-gradient-to-br from-slate-100 to-slate-200">
@@ -100,9 +103,12 @@ function ProgramCardItem({
 						{description}
 					</p>
 
-					<button className="mt-6 w-full rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 transition-all duration-300 py-3.5 text-base font-semibold text-white shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+					<Link
+						href={href}
+						className="mt-6 w-full rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 transition-all duration-300 py-3.5 text-base font-semibold text-white shadow-md hover:shadow-lg transform hover:-translate-y-0.5 text-center"
+					>
 						{buttonText}
-					</button>
+					</Link>
 				</div>
 			</div>
 		</div>
@@ -137,6 +143,7 @@ export default function ProgramsPage() {
 								description={t(program.descKey)}
 								imageSrc={program.imageSrc}
 								buttonText={t("learnMore")}
+								href={`/vcc/programs/${program.key}`} // <--- ini arahinnya
 							/>
 						))}
 					</div>

@@ -377,22 +377,6 @@ function HomePageContent() {
 					</div>
 				</div>
 			</section>
-
-			{/* CTA Section */}
-			<div className="py-16 bg-gradient-to-r from-blue-500 to-blue-600 text-white">
-				<div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-					<h2 className="text-3xl md:text-4xl font-bold mb-6">
-						{t("ctaTitle")}
-					</h2>
-					<p className="text-xl mb-10 text-blue-100">{t("ctaSubtitle")}</p>
-					<a
-						href="/contact"
-						className="bg-white hover:bg-blue-50 text-blue-600 font-bold py-4 px-12 rounded-lg text-lg transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-transform inline-block"
-					>
-						{t("contactUs")}
-					</a>
-				</div>
-			</div>
 			<Footer />
 		</>
 	);

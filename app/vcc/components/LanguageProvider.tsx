@@ -28,7 +28,7 @@ const translations = {
 		// Programs Section
 		programsTitle: "Program Kerja Sama Pendidikan",
 		programsSubtitle:
-			"Temukan berbagai bentuk kerja sama akademik yang didukung oleh VCC",
+			"Temukan berbagai bentuk kerja sama akademik yang didukung oleh Komisi kerja sama Sekolah Vokasi IPB University",
 		findOpportunities: "Temukan Peluang Internasional Anda",
 		findOpportunitiesDesc:
 			"Jelajahi program-program kolaborasi yang sesuai dengan minat dan tujuan akademik Anda",
@@ -189,14 +189,14 @@ const translations = {
 		// Hero Section
 		heroTitle: "Vocational Collaboration Center (VCC)",
 		heroDescription:
-			"An international academic collaboration information center under the Cooperation Commission of IPB Vocational School. Discover structured and reliable academic opportunities and international experiences.",
+			"An international academic collaboration information center under the Colaboration Commission of IPB Vocational School. Discover structured and reliable academic opportunities and international experiences.",
 		explorePrograms: "Explore Programs",
 		learnMore: "Learn More",
 
 		// Programs Section
 		programsTitle: "Educational Collaboration Programs",
 		programsSubtitle:
-			"Discover various forms of academic collaboration supported by VCC",
+			"Discover various forms of academic collaboration supported by Colaboration Commission of IPB Vocational School",
 		findOpportunities: "Find Your International Opportunities",
 		findOpportunitiesDesc:
 			"Explore collaborative programs that match your interests and academic goals",
